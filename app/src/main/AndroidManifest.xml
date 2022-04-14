@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.activity.snhs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SNHS">
+        <activity
+            android:name=".Grade9.MAPEH.PE.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.PE.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.PE.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.PE.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Music.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Music.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Music.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Music.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Health.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Health.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Health.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Health.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Arts.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Arts.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Arts.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Arts.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Drafting.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Drafting.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Drafting.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Drafting.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.CSS.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.CSS.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.CSS.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.CSS.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Cookery.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Cookery.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Cookery.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Cookery.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Science.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Science.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Science.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Science.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Math.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Math.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Math.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Math.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Filipino.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Filipino.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Filipino.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Filipino.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.English.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.English.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.English.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.English.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.AP.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.AP.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.AP.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.AP.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Science.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Science.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Science.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Science.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Math.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Math.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Math.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Math.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Filipino.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Filipino.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Filipino.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.Filipino.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.English.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.English.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.English.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.AP.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.AP.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.AP.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.AP.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.English.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade7.MainActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
