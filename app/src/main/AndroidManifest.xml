@@ -10,6 +10,72 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SNHS">
         <activity
+            android:name=".Grade10.MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade8.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Grade9.TLE.Drafting.DraftingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.CSS.CssActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.TLE.Cookery.CookeryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Science.ScienceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Math.MathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.PE.PEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Music.MusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Health.HealthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.MAPEH.Arts.ArtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.Filipino.FilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.ESP.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.ESP.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.ESP.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.ESP.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.ESP.EspActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.English.EnglishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade9.AP.ApActivity"
+            android:exported="false" />
+        <activity
             android:name=".Grade9.MAPEH.PE.Quarter4"
             android:exported="false" />
         <activity
@@ -221,13 +287,11 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

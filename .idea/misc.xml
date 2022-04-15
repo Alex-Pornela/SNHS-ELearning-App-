@@ -3,28 +3,47 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/drawable/button_neutral_background.xml" value="0.14078947368421052" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/drawable/button_warning_background.xml" value="0.14078947368421052" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/drawable/dialog_background.xml" value="0.14078947368421052" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/drawable/warning.xml" value="0.14078947368421052" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/drawable/warning_background.xml" value="0.14078947368421052" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_ap.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_cookery.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_drafting.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_esp.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_main1.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_main2.xml" value="0.1305921052631579" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_main3.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_music.xml" value="0.19270833333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter1.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter10.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter11.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter12.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter13.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter14.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter15.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter16.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter17.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter18.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter19.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter2.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter20.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter21.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter22.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter23.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter24.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter25.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter26.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter27.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter28.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter29.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter3.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter30.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter31.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter32.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter33.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter34.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter35.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter36.xml" value="0.17708333333333334" />
@@ -37,28 +56,43 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter42.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter43.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter44.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter45.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter46.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter47.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter48.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter49.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter5.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter50.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter51.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter52.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter53.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter54.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter55.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter56.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter57.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter58.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter59.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter6.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter60.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter61.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter62.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter63.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter64.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter65.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter66.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter67.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter68.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter69.xml" value="0.20677083333333332" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter7.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter70.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter71.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter72.xml" value="0.20677083333333332" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter8.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_quarter9.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_science.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/content_quarter3.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/exit_dialog_layout.xml" value="0.1305921052631579" />
       </map>
     </option>
   </component>
