@@ -13,4 +13,6 @@
     <string name="grade_8">Grade 8</string>
 
     <string name="greeting">Hello, What \nwould you like \nto learn today?</string>
+    <string name="esp">Edukasyon sa \nPagpapakatao</string>
+    <string name="tle">Technology and \n Livelihood Program</string>
 </resources>

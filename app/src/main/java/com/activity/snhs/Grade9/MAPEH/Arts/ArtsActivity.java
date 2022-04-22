@@ -7,12 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.activity.snhs.Grade9.MAPEH.PE.PEActivity;
 import com.activity.snhs.Grade9.MainActivity3;
 import com.activity.snhs.R;
 
 public class ArtsActivity extends AppCompatActivity {
 
-    ImageView back_arrow, first_btn, second_btn, third_btn, fourth_btn;
+    ImageView back_arrow, first_btn, second_btn, third_btn, fourth_btn,next_btn;
 
 
     @Override
@@ -25,6 +26,7 @@ public class ArtsActivity extends AppCompatActivity {
         second_btn = findViewById( R.id.second_btn );
         third_btn = findViewById( R.id.third_btn );
         fourth_btn = findViewById( R.id.fourth_btn );
+        next_btn = findViewById( R.id.next_btn );
 
         back_arrow.setOnClickListener( new View.OnClickListener() {
             @Override
@@ -63,6 +65,14 @@ public class ArtsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent( ArtsActivity.this, Quarter4.class);
+                startActivity(intent);
+            }
+        } );
+
+        next_btn.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent( ArtsActivity.this, PEActivity.class);
                 startActivity(intent);
             }
         } );
