@@ -10,6 +10,57 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SNHS">
         <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Drafting.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Drafting.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Drafting.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Drafting.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Drafting.DraftingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.CSS.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.CSS.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.CSS.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.CSS.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.CSS.CssActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Cookery.Quarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Cookery.Quarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Cookery.Quarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Cookery.Quarter1"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10.TLE.Cookery.CookeryActivity"
+            android:exported="false" />
+        <activity
             android:name=".Grade10.Science.Quarter4"
             android:exported="false" />
         <activity

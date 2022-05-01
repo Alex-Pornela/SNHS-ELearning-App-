@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -22,7 +23,8 @@ import com.activity.snhs.Grade9.MainActivity3;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView seven_btn, eight_btn, nine_btn, ten_btn;
+    ImageView seven_btn, eight_btn, nine_btn, ten_btn,menu_btn;
+    Dialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,97 @@ public class MainActivity extends AppCompatActivity {
         eight_btn = findViewById(R.id.eight_btn);
         nine_btn = findViewById(R.id.nine_btn);
         ten_btn = findViewById(R.id.ten_btn);
+        menu_btn = findViewById(R.id.menu_btn);
+
+
+
+        menu_btn.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                dialog = new Dialog( MainActivity.this );
+
+                dialog.setContentView( R.layout.menu_layout );
+               dialog.getWindow().setBackgroundDrawable( new ColorDrawable( Color.TRANSPARENT ) );
+
+                Button teacherBtn = dialog.findViewById( R.id.teacher_btn );
+                Button aboutBtn = dialog.findViewById( R.id.about_btn );
+                Button exitBtn = dialog.findViewById( R.id.exit_btn );
+                ImageView close_menu = dialog.findViewById(R.id.close_menu);
+
+                close_menu.setOnClickListener( new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                } );
+
+                teacherBtn.setOnClickListener( new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(MainActivity.this, TeacherActivity.class );
+                        startActivity( intent );
+                        finish();
+                    }
+                } );
+
+                aboutBtn.setOnClickListener( new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(MainActivity.this, About.class );
+                        startActivity( intent );
+                        finish();
+
+                    }
+                } );
+
+                exitBtn.setOnClickListener( new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this, R.style.AlertDialogTheme);
+                        View view = LayoutInflater.from(MainActivity.this).inflate(
+                                R.layout.exit_dialog_layout,
+                                (ConstraintLayout)findViewById(R.id.layoutDialogContainer)
+                        );
+                        builder.setView(view);
+                        ((TextView) view.findViewById(R.id.textTitle)).setText("SNHS");
+                        ((TextView) view.findViewById(R.id.textMessage)).setText("Do you want to exit?");
+                        ((Button) view.findViewById(R.id.buttonYes)).setText("Yes");
+                        ((Button) view.findViewById(R.id.buttonNo)).setText("No");
+                        ((ImageView) view.findViewById(R.id.imageIcon)).setImageResource(R.drawable.warning);
+
+                        final AlertDialog alertDialog = builder.create();
+
+                        view.findViewById(R.id.buttonYes).setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                moveTaskToBack(true);
+                                android.os.Process.killProcess(android.os.Process.myPid());
+                                System.exit(1);
+                            }
+                        });
+
+                        view.findViewById(R.id.buttonNo).setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                alertDialog.dismiss();
+                            }
+                        });
+
+                        if (alertDialog.getWindow() != null){
+                            alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(0));
+                        }
+                        alertDialog.show();
+                    }
+                } );
+
+
+                dialog.show();
+
+
+            }
+        } );
 
 
         seven_btn.setOnClickListener( new View.OnClickListener() {

@@ -108,7 +108,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/lato_black"
-                    android:text="First Quarter"
+                    android:text="Entrepreneurship"
                     android:textColor="@color/text_color"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -139,9 +139,10 @@
                     android:src="@drawable/eight_quarter_arrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.616"
+                    app:layout_constraintHorizontal_bias="0.526"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.47" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -183,9 +184,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/lato_black"
-                    android:text="Second Quarter"
+                    android:text="Computer Systems \nServicing"
                     android:textColor="@color/text_color"
-                    android:textSize="18sp"
+                    android:textSize="17sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.12"
@@ -258,7 +259,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/lato_black"
-                    android:text="Third Quarter"
+                    android:text="Cookery"
                     android:textColor="@color/text_color"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -289,9 +290,10 @@
                     android:src="@drawable/eight_quarter_arrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.52"
+                    app:layout_constraintHorizontal_bias="0.734"
                     app:layout_constraintStart_toEndOf="@+id/third_text"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.47" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -333,7 +335,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/lato_black"
-                    android:text="Fourth Quarter"
+                    android:text="Technical Dafting"
                     android:textColor="@color/text_color"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -364,9 +366,10 @@
                     android:src="@drawable/eight_quarter_arrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.46"
+                    app:layout_constraintHorizontal_bias="0.53"
                     app:layout_constraintStart_toEndOf="@+id/fourth_text"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.47" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>

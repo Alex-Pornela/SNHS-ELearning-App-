@@ -18,7 +18,9 @@ import com.activity.snhs.Grade10.MAPEH.Music.MusicActivity;
 import com.activity.snhs.Grade10.MAPEH.PE.PEActivity;
 import com.activity.snhs.Grade10.Math.MathActivity;
 import com.activity.snhs.Grade10.Science.ScienceActivity;
-import com.activity.snhs.Grade9.TLE.Drafting.DraftingActivity;
+import com.activity.snhs.Grade10.TLE.CSS.CssActivity;
+import com.activity.snhs.Grade10.TLE.Cookery.CookeryActivity;
+import com.activity.snhs.Grade10.TLE.Drafting.DraftingActivity;
 import com.activity.snhs.MainActivity;
 import com.activity.snhs.R;
 
@@ -137,7 +139,7 @@ public class MainActivity4 extends AppCompatActivity {
             }
         } );
 
-       /* drafting.setOnClickListener( new View.OnClickListener() {
+       drafting.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent( MainActivity4.this, DraftingActivity.class);
@@ -148,7 +150,7 @@ public class MainActivity4 extends AppCompatActivity {
         css.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( MainActivity3.this, CssActivity.class);
+                Intent intent = new Intent( MainActivity4.this, CssActivity.class);
                 startActivity(intent);
             }
         } );
@@ -156,10 +158,10 @@ public class MainActivity4 extends AppCompatActivity {
         cookery.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( MainActivity3.this, CookeryActivity.class);
+                Intent intent = new Intent( MainActivity4.this, CookeryActivity.class);
                 startActivity(intent);
             }
-        } );*/
+        } );
     }
 
     @Override
