@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SNHS">
         <activity
+            android:name=".Teachers.EnglishTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers.MapehTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers.FilipinoTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers.TleTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers.EspTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers.ScienceTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers.MathTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers.ApTeachers"
+            android:exported="false" />
+        <activity
             android:name=".About"
             android:exported="false" />
         <activity
