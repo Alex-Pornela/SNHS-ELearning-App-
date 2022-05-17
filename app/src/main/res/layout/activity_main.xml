@@ -59,7 +59,7 @@
 
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/whlp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/next_arrow"

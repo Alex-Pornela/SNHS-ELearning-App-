@@ -20,11 +20,13 @@ import com.activity.snhs.Grade10.MainActivity4;
 import com.activity.snhs.Grade7.MainActivity1;
 import com.activity.snhs.Grade8.MainActivity2;
 import com.activity.snhs.Grade9.MainActivity3;
+import com.activity.snhs.Whlp.Whlp;
 
 public class MainActivity extends AppCompatActivity {
 
     ImageView seven_btn, eight_btn, nine_btn, ten_btn,menu_btn;
     Dialog dialog;
+    TextView whlp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         nine_btn = findViewById(R.id.nine_btn);
         ten_btn = findViewById(R.id.ten_btn);
         menu_btn = findViewById(R.id.menu_btn);
+        whlp = findViewById(R.id.whlp);
 
 
 
@@ -167,7 +170,19 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
 
+        whlp.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Whlp.class );
+                startActivity( intent );
+                finish();
+            }
+        } );
+
     }
+
+
+
 
     @Override
     public void onBackPressed () {

@@ -19,7 +19,7 @@ public class Quarter2 extends AppCompatActivity {
 
         PDFView pdfView =  findViewById(R.id.pdfView);
 
-        pdfView.fromAsset("grade8/tle/tle2.pdf").load();
+        pdfView.fromAsset("grade8/tle/tle3_css.pdf").load();
 
 
         //backpress

@@ -40,6 +40,15 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_filipino2.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_filipino3.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_filipino_teachers.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_first.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_first_whlp10.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_first_whlp7.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_first_whlp8.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_first_whlp9.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_grade10.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_grade7.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_grade8.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_grade9.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_health.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_health2.xml" value="0.1712962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_health3.xml" value="0.1837962962962963" />
@@ -54,6 +63,7 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_math2.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_math3.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_math4.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_math_teachers.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_music.xml" value="0.19270833333333334" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_music2.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_music3.xml" value="0.1837962962962963" />
@@ -259,13 +269,22 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_science2.xml" value="0.1712962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_science3.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_science4.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_science_teachers.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_second_whlp10.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_second_whlp7.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_second_whlp8.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_second_whlp9.xml" value="0.1712962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_teacher.xml" value="0.22" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_tle.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_tle2.xml" value="0.22" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_tle_teachers.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_week1.xml" value="0.1837962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_whlp.xml" value="0.22" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/activity_whlp9_second.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/content_quarter3.xml" value="0.1" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/exit_dialog_layout.xml" value="0.1305921052631579" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/first_whlp7.xml" value="0.1837962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/SNHS/app/src/main/res/layout/menu_layout.xml" value="0.25" />
       </map>
     </option>
