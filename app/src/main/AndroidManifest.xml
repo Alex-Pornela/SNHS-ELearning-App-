@@ -10,13 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SNHS">
         <activity
+            android:name=".Whlp.whlp10.Quarter.Second"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp10.Quarter.First"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp8.Quarter.Second"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp8.Quarter.First"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp7.Quarter.Second"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp7.Quarter.First"
+            android:exported="false" />
+        <activity
             android:name=".Whlp.whlp9.first.Whlp9Second"
             android:exported="false" />
         <activity
             android:name=".Whlp.whlp9.first.Week1"
-            android:exported="false" />
-        <activity
-            android:name=".Whlp.whlp7.First"
             android:exported="false" />
         <activity
             android:name=".Whlp.whlp10.SecondWhlp10"
