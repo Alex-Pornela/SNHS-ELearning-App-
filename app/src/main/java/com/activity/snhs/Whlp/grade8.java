@@ -13,6 +13,10 @@ import com.activity.snhs.Whlp.whlp7.FirstWhlp7;
 import com.activity.snhs.Whlp.whlp7.SecondWhlp7;
 import com.activity.snhs.Whlp.whlp8.FirstWhlp8;
 import com.activity.snhs.Whlp.whlp8.SecondWhlp8;
+import com.activity.snhs.Whlp.whlp8.WhlpQuarter1;
+import com.activity.snhs.Whlp.whlp8.WhlpQuarter2;
+import com.activity.snhs.Whlp.whlp8.WhlpQuarter3;
+import com.activity.snhs.Whlp.whlp8.WhlpQuarter4;
 
 public class grade8 extends AppCompatActivity {
 
@@ -43,7 +47,7 @@ public class grade8 extends AppCompatActivity {
         first_btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( grade8.this, FirstWhlp8.class);
+                Intent intent = new Intent( grade8.this, WhlpQuarter1.class);
                 startActivity(intent);
             }
         } );
@@ -51,7 +55,7 @@ public class grade8 extends AppCompatActivity {
         second_btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( grade8.this, SecondWhlp8.class);
+                Intent intent = new Intent( grade8.this, WhlpQuarter2.class);
                 startActivity(intent);
             }
         } );
@@ -59,14 +63,16 @@ public class grade8 extends AppCompatActivity {
         third_btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText( grade8.this, "Not available as of now", Toast.LENGTH_SHORT ).show();
+                Intent intent = new Intent( grade8.this, WhlpQuarter3.class);
+                startActivity(intent);
             }
         } );
 
         fourth_btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText( grade8.this, "Not available as of now", Toast.LENGTH_SHORT ).show();
+                Intent intent = new Intent( grade8.this, WhlpQuarter4.class);
+                startActivity(intent);
             }
         } );
     }

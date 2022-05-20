@@ -6,7 +6,7 @@
     android:padding="5dp"
     android:layout_gravity="center"
     android:background="#03FFFFFF"
-    android:layout_height="306dp">
+    android:layout_height="206dp">
 
 
     <androidx.cardview.widget.CardView
@@ -45,13 +45,13 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/menu_btn_bg"
-                android:elevation="5dp"
-                android:text="Teachers"
-                android:paddingLeft="20dp"
                 android:drawableStart="@drawable/ic_baseline_person_pin_24"
-                android:drawableTint="@color/white"
-                android:textAlignment="viewStart"
                 android:drawablePadding="10dp"
+                android:drawableTint="@color/white"
+                android:elevation="5dp"
+                android:paddingLeft="20dp"
+                android:text="Teachers"
+                android:textAlignment="viewStart"
                 android:textAllCaps="false"
                 android:textColor="#ffffff"
                 android:textSize="15sp"
@@ -62,51 +62,28 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.203" />
 
-            <Button
-                android:id="@+id/about_btn"
-                android:layout_width="130dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/menu_btn_bg"
-                android:elevation="5dp"
-                android:text="About"
-                android:drawableStart="@drawable/ic_baseline_question_mark_24"
-                android:drawableTint="@color/white"
-                android:paddingLeft="20dp"
-                android:drawablePadding="10dp"
-                android:textAlignment="viewStart"
-                android:textAllCaps="false"
-                android:textColor="#ffffff"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.518" />
 
             <Button
                 android:id="@+id/exit_btn"
                 android:layout_width="130dp"
                 android:layout_height="50dp"
-                android:layout_marginTop="20dp"
                 android:background="@drawable/menu_btn_bg"
+                android:drawableStart="@drawable/ic_baseline_exit_to_app_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/white"
                 android:elevation="5dp"
+                android:paddingLeft="20dp"
                 android:text="Exit"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
                 android:textColor="#ffffff"
                 android:textSize="15sp"
-                android:textAllCaps="false"
-                android:textAlignment="viewStart"
-                android:drawableStart="@drawable/ic_baseline_exit_to_app_24"
                 android:textStyle="bold"
-                android:drawableTint="@color/white"
-                android:paddingLeft="20dp"
-                android:drawablePadding="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.851" />
+                app:layout_constraintTop_toBottomOf="@+id/teacher_btn"
+                app:layout_constraintVertical_bias="0.268" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

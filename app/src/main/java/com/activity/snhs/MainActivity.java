@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                dialog.getWindow().setBackgroundDrawable( new ColorDrawable( Color.TRANSPARENT ) );
 
                 Button teacherBtn = dialog.findViewById( R.id.teacher_btn );
-                Button aboutBtn = dialog.findViewById( R.id.about_btn );
+                /*Button aboutBtn = dialog.findViewById( R.id.about_btn );*/
                 Button exitBtn = dialog.findViewById( R.id.exit_btn );
                 ImageView close_menu = dialog.findViewById(R.id.close_menu);
 
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 } );
 
-                aboutBtn.setOnClickListener( new View.OnClickListener() {
+                /*aboutBtn.setOnClickListener( new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent(MainActivity.this, About.class );
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                         finish();
 
                     }
-                } );
+                } );*/
 
                 exitBtn.setOnClickListener( new View.OnClickListener() {
                     @Override

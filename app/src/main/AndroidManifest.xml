@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SNHS">
         <activity
+            android:name=".Whlp.whlp8.WhlpQuarter4"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp8.WhlpQuarter3"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp8.WhlpQuarter2"
+            android:exported="false" />
+        <activity
+            android:name=".Whlp.whlp8.WhlpQuarter1"
+            android:exported="false" />
+        <activity
             android:name=".Whlp.whlp10.Quarter.Second"
             android:exported="false" />
         <activity
